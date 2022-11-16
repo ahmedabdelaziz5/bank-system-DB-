@@ -1,0 +1,71 @@
+all tables : DONE
+
+create bank
+create account 
+create transactions 
+create customer
+create loan 
+creatte credit card 
+
+////////////////////////////////////////////////////////
+
+data entry : DONE
+count num of accounts 
+
+ 
+///////////////////////////////////////////////////////////
+
+customer queries :
+ 
+select all customers (oederd by name asc)
+customer address grouped by customer salary
+select all customers (oederd by salary des)
+select specific customer
+update customer
+delete customer
+
+/////////////////////////////////////////////////////
+
+acount queries : 
+
+select all acount 
+select specific user 
+select balance for specifec user 
+bool is_active 
+created account 
+delete account 
+update balance 
+update type of account 
+
+//////////////////////////////////////////////////////////
+
+transactions queries : 
+
+select all transactions
+query to know if uer can withdraw or not 
+select all transactions for specific user
+select specific transportation
+delete transactions if is_active==0
+
+//////////////////////////////////////////////////////////
+
+loan queries : 
+
+select loan to know if !!STATUS  ... ! ( ACTIVE / FINNISHED )
+select all loans 
+select specific type of loans 
+update specifc loan 
+update status of specific loan 
+update all loans which is under 20k (يوم العفو الملكي )
+get loan for specific user
+
+/////////////////////////////////////////////////////////
+
+cerdit card queries : 
+
+select specific credit card 
+select all crdit cards for specific user ( acc id)
+select all expired credit card 
+know if the credit card is active or not 
+
+////////////////////////////////////////////////////////////
