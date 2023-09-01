@@ -1,5 +1,4 @@
-# bank-system-DB-
-SQL DB for bank system 
+# Database for bank system  
 
 #### note that : The documents are in PDF and TXT format and can be opened with a PDF reader or a text editor.
 
