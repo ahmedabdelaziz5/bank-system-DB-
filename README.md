@@ -6,6 +6,7 @@
 
 ## ERD
 The ERD shows the entities and relationships in the database.
+
 BANK_ERD.pdf: The Entity-Relationship Diagram (ERD) for the database.
 
 
