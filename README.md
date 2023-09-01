@@ -64,7 +64,7 @@ SALARY float,
 SUPERSSN INT, 
 DNO INT, 
 foreign key(DNO) REFERENCES DEPARTMENT (DNUMBER)); 
-
+```
 
 ### PROJECTS schema
 ```sql
@@ -74,14 +74,15 @@ CREATE TABLE PROJECTS (
     DNUM INT, 
     PLOCATION varchar(45), 
    foreign key(DNUM) REFERENCES DEPARTMENT(DNUMBER) 
-); 
+);
+```
 
 
 ### DEPT_LOCATIONS schema
 ```sql
 CREATE TABLE DEPT_LOCATIONS(DNUMBER INT,DLOCATION INT PRIMARY KEY, 
 foreign key(DNUMBER)REFERENCES DEPARTMENT(DNUMBER)); 
-
+```
 
 
 ### WORKS_ON schema
@@ -91,7 +92,8 @@ HOURS INT,
 ESSN INT, 
 foreign key(PNO) REFERENCES PROJECTS(PNUMBER), 
 foreign key(ESSN) REFERENCES EMPLOYEE(SSN) 
-); 
+);
+```
 
 
 ### DEPENDENT schema
@@ -104,7 +106,7 @@ CREATE TABLE DEPENDENT (
     RELATRIONSHIP varchar(45), 
    foreign key(ESSN) REFERENCES EMPLOYEE(SSN) 
 );
-
+```
 
 
 
