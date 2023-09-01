@@ -39,9 +39,15 @@
 #### database schema.txt : The database schema ( SQL sentax which creats the tables ).
 
 
+## queries file :
+#### The SQL queries in the QUERY_ANALYSIS.txt file can be used to analyze the data in the database.
+#### QUERY_ANALYSIS.txt : The SQL queries used to analyze the database.
+
+
+
 ## Schemas
 ### User schema
-sql
+```sql
 CREATE TABLE users (
 id INT NOT NULL AUTO_INCREMENT,
 name VARCHAR(255) NOT NULL,
@@ -52,8 +58,6 @@ account_number VARCHAR(255) NOT NULL,
 PRIMARY KEY (id)
 );
 
-## queries file :
-#### The SQL queries in the QUERY_ANALYSIS.txt file can be used to analyze the data in the database.
-#### QUERY_ANALYSIS.txt : The SQL queries used to analyze the database.
+
 
 
